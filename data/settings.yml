@@ -1,0 +1,28 @@
+site:
+  title: Réceptions d’exception
+  description: "Vos repas d’exception chez un particulier"
+  url: "http://cookoon.fr/cookoon-static.github.io/"
+
+author:
+  name: Cookoon
+  # address: Chemin de coudère 09420 Rimont
+  # phone: 02 86 54 96 30
+  # email: infos@nowifisummercamp.fr
+
+social:
+  # facebook: "https://facebook.com/nowifisummercamp"
+  twitter: "@cookoon"
+
+# copyright:
+#   developer:
+    # name: Samuel Bourdon
+    # url: "http://samuelbourdon.com"
+
+# google_analytics:
+#   tracking_code: "Your-tracking-code"
+
+
+# données site web actuel non intégrées
+    # fbAppId: '186829152103890',
+    # keywords: `cookoon, communauté, communaute, sélective,
+    # selective, recevoir, partager, réceptions, receptions, exception`,
