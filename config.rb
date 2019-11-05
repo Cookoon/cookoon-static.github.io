@@ -1,12 +1,11 @@
+require 'slim'
+
 # Notre gem installée, il faut maintenant la configurer. Middleman-deploy offre plusieurs possibilités de déploiement via ftp, sftp, rsync ou git. On doit donc lui indiquer quelle méthode on choisit. On va cette fois ouvrir le fichier config.rb et ajouter ce qui suit avant le bloc configure:
 
 activate :deploy do |deploy|
   deploy.build_before   = true
   deploy.deploy_method  = :git
   deploy.branch         = 'master'
-  # deploy.method = :git
-  # deploy.branch = 'master'
-  # deploy.build_before = true
 end
 
 # Activate and configure extensions
