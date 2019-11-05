@@ -1,0 +1,16 @@
+.navbar_black {
+  background-color: black;
+  // color: white;
+  // align-items: center;
+  margin: 0;
+  padding: 1rem 5.8rem;
+  display: flex;
+
+  & a {
+    color: white;
+  }
+
+  & a:hover {
+    color: #cfdef3;
+  }
+}
