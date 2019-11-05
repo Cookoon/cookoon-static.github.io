@@ -1,0 +1,25 @@
+.navbar_white {
+  display: flex;
+  color: black;
+  font-weight: bold;
+  align-items: center;
+  margin: 0;
+  padding: 1rem 2.5rem;
+  height: 3rem;
+}
+
+.navbar_white > a {
+  margin: 0 2rem;
+  text-decoration: none;
+    &:hover {
+    color: #CDBB8A;
+  }
+}
+
+#logo_navbar {
+  height: 3rem;
+  margin-right: 2rem;
+}
+
+
+
