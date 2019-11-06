@@ -1,0 +1,27 @@
+.card {
+  height: auto;
+  height-max: 24rem;
+  width: auto;
+  max-width: 24rem;
+  border: 2px;
+  border-style: solid;
+  padding: 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bande_horizontale {
+  height: 1px;
+  width: 12rem;
+  background-color: black;
+}
+
+.card_text {
+  margin: 1rem 0 0 0;
+}
+
+.card_title {
+  margin: 0 0 1rem 0;
+}

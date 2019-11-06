@@ -1,29 +1,35 @@
 @import "components/index";
 
+html {
+  font-size: 100%; // pour utiliser les rem
+}
+
 body {
   // background-color: #fbc547;
   margin: 0;
   color: #333;
-  font-family: "Avenir", serif;
+
   font-size: 1rem;
+  font-family: "Avenir", serif;
   font-weight: 400;
   line-height: 1.5;
+
   text-decoration: none;
   text-align: center;
+}
 
+h1 {
+  font-size: 2rem;
 }
 
 h3 {
-  font-family: "Avenir", serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  font-weight: bold;
+  font-size: 1rem; // remettre sinon le user agent stylesheet le modifie
   text-decoration: underline;
   text-align: center;
 }
 
 a {
+  font-size: 1rem;
   color: rgba(#000, 0.7);
 
   &:focus,
