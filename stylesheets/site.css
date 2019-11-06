@@ -1,15 +1,88 @@
+.navbar_black {
+  background-color: black;
+  margin: 0;
+  padding: 1rem 5.8rem;
+  display: flex; }
+  .navbar_black a {
+    color: white; }
+  .navbar_black a:hover {
+    color: #cfdef3; }
+
+.navbar_white {
+  display: flex;
+  color: black;
+  font-weight: bold;
+  align-items: center;
+  margin: 0;
+  padding: 1rem 2.5rem;
+  height: 3rem; }
+
+.navbar_white > a {
+  margin: 0 2rem;
+  text-decoration: none; }
+  .navbar_white > a:hover {
+    color: #CDBB8A; }
+
+#logo_navbar {
+  height: 3rem;
+  margin-right: 2rem; }
+
+.footer {
+  background-color: black;
+  margin: 0;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center; }
+
+#logo_footer {
+  height: 2rem;
+  -ms-grid-row-align: center;
+      align-self: center; }
+
+.footer a {
+  color: white;
+  text-decoration: none; }
+
+.footer ul {
+  padding: 0;
+  margin: 0rem; }
+
+.footer h3 {
+  margin-top: 0; }
+
+#cols_footer {
+  display: flex;
+  justify-content: space between; }
+
+.col_footer {
+  margin: 0rem 2rem; }
+
+#logo_adresse_col {
+  display: flex;
+  justify-content: space around; }
+
 body {
-  background-color: #fbc547;
+  margin: 0;
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
+  font-family: "Avenir", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+  text-align: center; }
+
+h3 {
+  font-family: "Avenir", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-weight: bold;
+  text-decoration: underline;
   text-align: center; }
 
 a {
   color: rgba(0, 0, 0, 0.7); }
   a:focus, a:hover {
     color: rgba(0, 0, 0, 0.6); }
-
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem; }
