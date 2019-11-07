@@ -20,13 +20,14 @@ end
 # https://middlemanapp.com/basics/layouts/
 
 # Per-page layout changes
-page '*.html.erb', layout: true
+# page '*.html.erb', layout: true
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
+page "index.html", :layout => 'page_under_construction'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
