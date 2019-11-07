@@ -2,7 +2,7 @@ require 'slim'
 # require 'font-awesome-sass'
 
 configure :build do
-   set :http_prefix, "/cookoon.fr/cookoon-static.github.io"
+   set :http_prefix, "/cookoon-static.github.io"
 end
 
 activate :relative_assets
@@ -64,5 +64,3 @@ page "index.html", :layout => 'page_under_construction'
 #   activate :minify_css
 #   activate :minify_javascript
 # end
-
-
