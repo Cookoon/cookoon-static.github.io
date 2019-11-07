@@ -2,8 +2,10 @@ require 'slim'
 # require 'font-awesome-sass'
 
 configure :build do
-  set :http_prefix, "/cookoon.fr/cookoon-static.github.io/"
+  set :http_prefix, "/cookoon-static.github.io/"
 end
+
+activate :relative_assets
 
 # Notre gem installée, il faut maintenant la configurer. Middleman-deploy offre plusieurs possibilités de déploiement via ftp, sftp, rsync ou git. On doit donc lui indiquer quelle méthode on choisit. On va cette fois ouvrir le fichier config.rb et ajouter ce qui suit avant le bloc configure:
 activate :deploy do |deploy|
