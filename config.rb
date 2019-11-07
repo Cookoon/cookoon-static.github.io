@@ -5,6 +5,7 @@ configure :build do
   set :http_prefix, "/cookoon-static.github.io/"
   set :relative_links, true
   set :relative_assets, true
+  set :images_dir, 'images'
 end
 
 
