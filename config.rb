@@ -1,12 +1,12 @@
 require 'slim'
 # require 'font-awesome-sass'
 
-set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
-set :images_dir, 'images'
-set :partials_dir, 'partials'
-set :build_dir, 'public_html'
-set :relative_links, 'true'
+# set :css_dir, 'stylesheets'
+# set :js_dir, 'javascripts'
+# set :images_dir, 'images'
+# set :partials_dir, 'partials'
+# set :build_dir, 'public_html'
+# set :relative_links, 'true'
 
 configure :build do
   # set :relative_links, true

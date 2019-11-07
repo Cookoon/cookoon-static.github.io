@@ -1,0 +1,183 @@
+.navbar_black {
+  background-color: black;
+  margin: 0;
+  padding: 1rem 5.8rem;
+  display: flex; }
+  .navbar_black a {
+    color: white; }
+  .navbar_black a:hover {
+    color: #cfdef3; }
+
+.navbar_white {
+  display: flex;
+  color: black;
+  font-weight: bold;
+  align-items: center;
+  margin: 1rem 0 2rem 0;
+  height: 3rem; }
+
+.navbar_white > a {
+  margin: 0 2rem;
+  text-decoration: none; }
+  .navbar_white > a:hover {
+    color: #CDBB8A; }
+
+#lien_accueil_logo_cookoon {
+  margin-left: 0; }
+
+#logo_cookoon_navbar {
+  height: 3rem;
+  margin-right: 2rem; }
+
+.footer {
+  background-color: black;
+  margin: 0;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  margin-top: 2rem; }
+
+#logo_footer {
+  height: 2rem;
+  -ms-grid-row-align: center;
+      align-self: center; }
+
+.footer a {
+  color: white;
+  text-decoration: none; }
+
+.footer a:hover {
+  color: #cfdef3; }
+
+.footer ul {
+  padding: 0;
+  margin: 0rem; }
+
+.footer h3 {
+  margin-top: 0; }
+
+#cols_footer {
+  display: flex;
+  justify-content: space between; }
+
+.col_footer {
+  margin: 0rem 2rem; }
+
+#logo_adresse_col {
+  display: flex;
+  justify-content: space around; }
+
+.card {
+  height: auto;
+  height-max: 24rem;
+  width: auto;
+  max-width: 24rem;
+  padding: 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.bande_horizontale {
+  height: 1px;
+  width: 12rem;
+  background-color: #CDBB8A; }
+
+.card_text {
+  margin: 1rem 0 0 0; }
+
+.card_title {
+  margin: 0 0 1rem 0; }
+
+.card_banner {
+  background-color: white;
+  opacity: 80%;
+  position: relative;
+  top: 4rem;
+  left: 4rem; }
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 32rem;
+  width: auto; }
+
+.btn-gold {
+  background: #CDBB8A;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 24px;
+  width: 15rem;
+  opacity: 0.6;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; }
+
+.btn-gold-in-card {
+  margin-top: 1rem; }
+
+.bar_gold {
+  background-color: #CDBB8A;
+  opacity: 60%;
+  color: white;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 2rem 5.8rem; }
+
+#logo-cookoon-bar-gold {
+  height: 2rem; }
+
+.bar_gold > p {
+  margin-bottom: 0; }
+
+#signature_bar_gold {
+  text-align: right;
+  font-style: italic; }
+
+#barre_logos_bar_gold {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: auto; }
+
+.logos_bar_gold {
+  height: inherit;
+  margin: 0 2rem; }
+
+html {
+  font-size: 100%; }
+
+body {
+  margin: 0;
+  color: #333;
+  font-size: 1rem;
+  font-family: "Avenir", serif;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+  text-align: center; }
+
+h1 {
+  font-size: 2rem;
+  font-weight: normal; }
+
+h3 {
+  font-size: 1rem;
+  text-decoration: underline;
+  text-align: center; }
+
+a {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.7); }
+  a:focus, a:hover {
+    color: rgba(0, 0, 0, 0.6); }
+
+.cont {
+  padding: 0 6rem; }
+
+#page_under_construction {
+  margin-top: 20%; }
