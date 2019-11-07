@@ -19,3 +19,16 @@
   text-align: right;
   font-style: italic;
 }
+
+#barre_logos_bar_gold {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: auto;
+}
+
+.logos_bar_gold {
+  height: inherit;
+  margin: 0 2rem;
+}
