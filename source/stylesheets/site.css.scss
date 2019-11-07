@@ -20,6 +20,7 @@ body {
 
 h1 {
   font-size: 2rem;
+  font-weight: normal;
 }
 
 h3 {
@@ -36,4 +37,8 @@ a {
   &:hover {
     color: rgba(#000, 0.6);
   }
+}
+
+.cont {
+  padding: 0 6rem;
 }
