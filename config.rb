@@ -2,7 +2,7 @@ require 'slim'
 # require 'font-awesome-sass'
 
 configure :build do
-  set :http_prefix, "/cookoon.fr/cookoon-static.github.io/"
+  set :http_prefix, "/cookoon-static.github.io/"
 end
 
 set :relative_links, true
