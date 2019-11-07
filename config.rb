@@ -3,6 +3,7 @@ require 'slim'
 
 configure :build do
   set :http_prefix, "/cookoon-static.github.io/"
+  activate :relative_assets
 end
 
 set :relative_links, true
