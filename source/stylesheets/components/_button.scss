@@ -1,4 +1,4 @@
-.btn-gold {
+.btn_gold {
   background: #CDBB8A;
   color: white;
   font-weight: bold;
@@ -7,11 +7,12 @@
   // border: 1px solid #4A4A4A;
   padding: 8px 24px;
   // border-radius: 50px;
-  width: 15rem;
+  // width: 50%;
+  display:inline;
   opacity: 0.6;
   transition: opacity 0.3s ease;
 }
 
-.btn-gold-in-card {
+.btn_gold_in_card {
   margin-top: 1rem;
 }

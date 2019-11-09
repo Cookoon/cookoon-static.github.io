@@ -1,5 +1,6 @@
 require 'slim'
 # require 'font-awesome-sass'
+# require 'bootstrap'
 
 # set :css_dir, 'stylesheets'
 # set :js_dir, 'javascripts'
