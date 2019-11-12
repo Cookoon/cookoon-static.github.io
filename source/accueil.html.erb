@@ -15,7 +15,8 @@ title: Bienvenue chez Cookoon
 
 <!-- barre gold texte -->
 <div class="bar_gold">
-  <img id="logo_cookoon_bar_gold" src="https://cookoon.fr/cookoon-static.github.io/images/cookoon-logo-white.png" alt="logo Cookoon">
+<!--   <img id="logo_cookoon_bar_gold" src="/images/cookoon-logo-white.png" alt="logo Cookoon"> -->
+  <%= image_tag 'cookoon-logo-white.png', alt: 'Logo Cookoon', class: 'card_four_images_img one', id: 'logo_cookoon_bar_gold' %>
   <h1>Le concept Cookoon</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio repellat esse accusantium, dicta alias cum doloremque temporibus laborum eaque. Blanditiis quos mollitia nisi aut perspiciatis. Voluptatem recusandae ratione non esse.</p>
 </div>
@@ -28,14 +29,14 @@ title: Bienvenue chez Cookoon
 
   <!-- carte 4 images -->
   <div class="card_four_images">
-<!--     <img class="card_four_images_img one" src="/images/cookoon-chef-1.png">
-    <img class="card_four_images_img two" src="/images/cookoon-champagne.png">
-    <img class="card_four_images_img three" src="/images/cookoon-diner-1.png">
-    <img class="card_four_images_img four" src="/images/cookoon-chef-1.png"> -->
-    <%= image_tag 'cookoon-chef-1.png', :alt => 'My app', :class => "card_four_images_img one" %>
-    <%= image_tag 'cookoon-chef-1.png', :alt => 'My app', :class => "card_four_images_img two" %>
-    <%= image_tag 'cookoon-chef-1.png', :alt => 'My app', :class => "card_four_images_img three" %>
-    <%= image_tag 'cookoon-chef-1.png', :alt => 'My app', :class => "card_four_images_img four" %>
+    <!-- <img class="card_four_images_img one" src="/images/cookoon-chef-1.png"> -->
+    <!-- <img class="card_four_images_img two" src="/images/cookoon-champagne.png"> -->
+    <!-- <img class="card_four_images_img three" src="/images/cookoon-diner-1.png"> -->
+    <!-- <img class="card_four_images_img four" src="/images/cookoon-chef-1.png"> -->
+    <%= image_tag 'cookoon-chef-1.png', alt:'#', class: 'card_four_images_img one' %>
+    <%= image_tag 'cookoon-champagne.png', alt:'#', class: 'card_four_images_img two' %>
+    <%= image_tag 'cookoon-diner-1.png', alt:'#', class: 'card_four_images_img three' %>
+    <%= image_tag 'cookoon-chef-1.png', alt:'#', class: 'card_four_images_img four' %>
   </div>
 
     <!-- carte description -->
@@ -73,13 +74,16 @@ title: Bienvenue chez Cookoon
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="carousel_img" src="/images/cookoon-champagne.png" alt="First slide">
+                <!-- <img class="carousel_img" src="/images/cookoon-champagne.png" alt="First slide"> -->
+                <%= image_tag 'cookoon-champagne.png', alt:'#', class: 'card_four_images_img one' %>
               </div>
               <div class="carousel-item">
-                <img class="carousel_img" src="/images/cookoon-diner-1.png" alt="Second slide">
+                <!-- <img class="carousel_img" src="/images/cookoon-diner-1.png" alt="Second slide"> -->
+                <%= image_tag 'cookoon-diner-1.png', alt:'#', class: 'card_four_images_img one' %>
               </div>
               <div class="carousel-item">
-                <img class="carousel_img" src="/images/cookoon-chef-1.png" alt="Third slide">
+                <!-- <img class="carousel_img" src="/images/cookoon-chef-1.png" alt="Third slide"> -->
+                <%= image_tag 'cookoon-chef-1.png', alt:'#', class: 'card_four_images_img one' %>
               </div>
             </div>
             <a class="carousel-control-prev control-margin" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -101,7 +105,8 @@ title: Bienvenue chez Cookoon
 <div class="cont">
   <!-- image -->
   <div class="cont_carousel">
-    <img class="carousel_img" src="/images/cookoon-chef-1.png">
+    <!-- <img class="carousel_img" src="/images/cookoon-chef-1.png"> -->
+    <%= image_tag 'cookoon-chef-1.png', alt:'#', class: 'card_four_images_img one' %>
   </div>
 </div>
 
@@ -116,13 +121,16 @@ title: Bienvenue chez Cookoon
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="carousel_img" src="/images/cookoon-champagne.png" alt="First slide">
+        <!-- <img class="carousel_img" src="/images/cookoon-champagne.png" alt="First slide"> -->
+        <%= image_tag 'cookoon-champagne.png', alt:'#', class: 'card_four_images_img one' %>
       </div>
       <div class="carousel-item">
-        <img class="carousel_img" src="/images/cookoon-diner-1.png" alt="Second slide">
+        <!-- <img class="carousel_img" src="/images/cookoon-diner-1.png" alt="Second slide"> -->
+        <%= image_tag 'cookoon-diner-1.png', alt:'#', class: 'card_four_images_img one' %>
       </div>
       <div class="carousel-item">
-        <img class="carousel_img" src="/images/cookoon-chef-1.png" alt="Third slide">
+        <!-- <img class="carousel_img" src="/images/cookoon-chef-1.png" alt="Third slide"> -->
+        <%= image_tag 'cookoon-chef-1.png', alt:'#', class: 'card_four_images_img one' %>
       </div>
     </div>
     <a class="carousel-control-prev control-margin" href="#carouselExampleIndicators1" role="button" data-slide="prev">
@@ -138,7 +146,8 @@ title: Bienvenue chez Cookoon
 
 <!-- barre gold -->
 <div class="bar_gold">
-  <img id="logo_cookoon_bar_gold" src="/images/cookoon-logo-white.png" alt="logo Cookoon">
+  <!-- <img id="logo_cookoon_bar_gold" src="/images/cookoon-logo-white.png" alt="logo Cookoon"> -->
+  <%= image_tag 'cookoon-logo-white.png', alt:'logo Cookoon', id: 'logo_cookoon_bar_gold' %>
   <h1>Ils parlent de nous</h1>
   <div id="barre_logos_bar_gold">
     <img class="logos_bar_gold" src="/images/axa-logo.png" alt="logo Axa">
