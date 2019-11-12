@@ -1,4 +1,6 @@
 require 'slim'
+
+activate :livereload
 # require 'font-awesome-sass'
 # require 'bootstrap'
 
