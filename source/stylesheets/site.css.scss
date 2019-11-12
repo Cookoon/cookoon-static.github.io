@@ -1,4 +1,5 @@
 @import "components/index";
+// @import "bootstrap";
 
 html {
   font-size: 100%; // pour utiliser les rem
@@ -39,8 +40,19 @@ a {
   }
 }
 
+button {
+  font-size: 1rem;
+  color: rgba(#000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+
 .cont {
-  padding: 0 6rem;
+  // padding: 2rem 8rem;
+  padding: 2rem 10vw;
 }
 
 #page_under_construction {

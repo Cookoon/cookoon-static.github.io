@@ -1,11 +1,11 @@
-.card {
+.card_description {
   height: auto;
-  height-max: 24rem;
+  height-max: 48rem;
   width: auto;
-  max-width: 24rem;
+  max-width: 50%;
   // border: 2px;
   // border-style: solid;
-  padding: 2rem;
+  padding: 0 7.5%;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
 
 .bande_horizontale {
   height: 1px;
-  width: 12rem;
+  width: 50%;
   background-color: #CDBB8A;
 }
 
@@ -30,8 +30,10 @@
   background-color: white;
   opacity: 80% ;
   position: relative;
-  top: 4rem;
-  left:4rem;
+  top: 5vmin;
+  left:5vmin;
+  padding: 2%;
+  width: 32.5vw;
 }
 
 // .image-card {

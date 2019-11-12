@@ -1,0 +1,14 @@
+.cont_carousel {
+  height: 24rem;
+  width: 24rem;
+  // width: auto;
+  // max-width: 24rem;
+  display: flex;
+  align-items: center;
+}
+
+.carousel_img {
+  height: 24rem;
+  width: 100%;
+  object-fit: cover;
+}

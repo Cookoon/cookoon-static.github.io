@@ -1,0 +1,49 @@
+.card_four_images {
+  // width: 50%;
+  // height: 100%;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+  // align-content: space-between;
+  // border-style: solid;
+  display: grid;
+  grid-template-columns: repeat(2, 20vw);
+  // grid-gap: 1vmin;
+  grid-template-rows: repeat(2, 20vw);
+}
+
+.card_four_images_img {
+  height: 19.5vw;
+  width: 19.5vw;
+  object-fit: cover;
+  justify-self: start;
+  align-self: start;
+}
+
+.one {
+  grid-column: 1;
+  grid-row: 1;
+
+}
+
+.two {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: end; // horizontal
+
+}
+.three {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: end; // vertical
+}
+
+.four {
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: end; // horizontal
+  align-self: end; // vertical
+}
+
+
+

@@ -104,7 +104,7 @@
   height: 32rem;
   width: auto; }
 
-.btn-gold {
+.btn_gold {
   background: #CDBB8A;
   color: white;
   font-weight: bold;
@@ -116,7 +116,7 @@
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease; }
 
-.btn-gold-in-card {
+.btn_gold_in_card {
   margin-top: 1rem; }
 
 .bar_gold {
@@ -127,7 +127,7 @@
   margin: 2rem 0;
   padding: 2rem 5.8rem; }
 
-#logo-cookoon-bar-gold {
+#logo_cookoon_bar_gold {
   height: 2rem; }
 
 .bar_gold > p {
