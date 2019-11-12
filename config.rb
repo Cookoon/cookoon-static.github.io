@@ -8,11 +8,11 @@ require 'slim'
 # set :partials_dir, 'partials'
 # set :build_dir, 'public_html'
 # set :relative_links, 'true'
-
+set :images_dir, 'images'
 
 
 configure :build do
-  set :relative_links, true
+  # set :relative_links, true
   # set :relative_assets, true
   set :http_prefix, "/cookoon-static.github.io/"
 end
