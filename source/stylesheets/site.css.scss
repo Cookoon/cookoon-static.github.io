@@ -3,9 +3,52 @@
 // @import "bootstrap";
 // @import 'bootstrap';
 
+// default: Extra small devices (Portrait phone / less than 576px)
+// sm: Small devices (Landscape phone / 576px and up)
+// md: Medium devices (Tablet / 768px and up)
+// lg: Large devices (Desktops / 992px and up)
+// xl: Extra large devices (Large desktops / 1200px and up)
+
+// // Portrait phone
+// @media (max-width: 576px) {
+//   font-size: 50%;
+//   }
+
+// // Landscape phone
+// @media (min-width: 576px) and (max-width: 768px) {
+//   font-size: 50%;
+//   }
+
+// // Tablet
+// @media (min-width: 768px) and (max-width: 992px) {
+//   font-size: 50%;
+//   }
+
+// // Desktop
+// @media (min-width: 992px) and (max-width: 1200px) {
+//   font-size: 50%;
+//   }
+
+// // large Desktop
+// @media (min-width: 1200px)
+//   font-size: 50%;
+//   }
 
 html {
-  font-size: 100%; // pour utiliser les rem
+  // iphone 5
+  @media (max-width: 767px) {
+  font-size: 60%;
+  }
+
+  // ipad
+  @media (min-width: 768px) and (max-width: 991px) {
+  font-size: 80%;
+  }
+
+  // macbook
+  @media (min-width: 992px) {
+  font-size: 100%;
+  }
 }
 
 body {
