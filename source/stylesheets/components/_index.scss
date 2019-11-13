@@ -8,9 +8,21 @@
 @import "carousel";
 @import "card_double";
 @import "card_four_images";
-@import "test";
 @import "modal";
 @import "hamburger";
+@import "_font_awesome_icon.scss";
 
 // @import "font-awesome-compass";
 // @import "font-awesome";
+
+.small_screen_hide {
+  @media screen and (max-width: 991px) {
+  display: none;
+  }
+}
+
+.big_screen_hide {
+  @media screen and (min-width: 992px) {
+  display: none;
+  }
+}
