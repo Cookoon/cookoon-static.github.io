@@ -1,7 +1,7 @@
 .btn_gold {
   background: #CDBB8A;
   color: white;
-  font-weight: bold;
+  // font-weight: bold;
   text-decoration: none;
   text-align: center;
   // border: 1px solid #4A4A4A;
@@ -9,10 +9,20 @@
   // border-radius: 50px;
   // width: 50%;
   display:inline;
-  opacity: 0.6;
+  // opacity: 0.6;
   transition: opacity 0.3s ease;
 }
 
 .btn_gold_in_card {
   margin-top: 1rem;
+}
+
+.btn_navbar_black {
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  // border-radius: 50px;
+  // font-weight: lighter;
+  // opacity: 0.6;
+  // transition: opacity 0.3s ease;
 }

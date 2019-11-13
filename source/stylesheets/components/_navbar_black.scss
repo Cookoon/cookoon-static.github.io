@@ -1,10 +1,12 @@
 .navbar_black {
   background-color: black;
-  // color: white;
+  color: white;
   // align-items: center;
   margin: 0;
   padding: 1rem 5.8rem;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   & a {
     color: white;
