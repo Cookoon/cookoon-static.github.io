@@ -1,3 +1,9 @@
+#cont_navbar_white {
+  @media screen and (max-width: 768px) {
+  display: none;
+  }
+}
+
 .navbar_white {
   display: flex;
   color: black;
