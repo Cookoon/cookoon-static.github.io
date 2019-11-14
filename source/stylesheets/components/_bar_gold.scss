@@ -35,13 +35,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   height: 4rem;
   width: auto;
 }
 
 .logos_bar_gold {
-  height: inherit;
+  height: 2.5rem;
   margin: 0 2rem;
+  @media (max-width: 991px) {
+    height: 2rem;
+    margin: 0 1rem;
+  }
 }
 
 .bar_gold h1 {

@@ -19,11 +19,15 @@
 }
 
 .padding-right {
-  padding-right: 5rem;
+  @media (min-width: 992px) {
+    padding-right: 5rem;
+  }
 }
 
 .padding-left {
-  padding-left: 5rem;
+  @media (min-width: 992px) {
+    padding-left: 5rem;
+  }
 }
 
 .bande_horizontale {

@@ -1,9 +1,18 @@
-.card_double {
+.card_double_img_on_left, .card_double_img_on_right {
   // height: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.card_double_img_on_left {
     @media (max-width: 991px) {
     flex-direction: column;
+  }
+}
+
+.card_double_img_on_right {
+    @media (max-width: 991px) {
+    flex-direction: column-reverse;
   }
 }
