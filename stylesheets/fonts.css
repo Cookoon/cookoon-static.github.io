@@ -1,0 +1,6 @@
+@font-face {
+  src: url("fonts/cochinitalic.eot");
+  src: url("fonts/cochinitalic.eot?#iefix") format("embedded-opentype"), url("fonts/cochinitalic.woff2") format("woff2");
+  src: url("fonts/Cochin-Italic.ttf") format("truetype"), url("fonts/Cochin-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }

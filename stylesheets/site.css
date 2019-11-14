@@ -35,8 +35,10 @@
   margin-left: 0; }
 
 #logo_cookoon_navbar {
-  height: 3rem;
-  margin-right: 2rem; }
+  height: 3rem; }
+  @media (min-width: 992px) {
+    #logo_cookoon_navbar {
+      margin-right: 2rem; } }
 
 .footer {
   background-color: black;
@@ -59,10 +61,12 @@
 
 .footer ul {
   padding: 0;
-  margin: 0rem; }
+  margin: 0rem;
+  text-align: left; }
 
 .footer h3 {
-  margin-top: 0; }
+  margin-top: 0;
+  text-align: left; }
 
 #cols_footer {
   display: flex;
@@ -165,7 +169,7 @@
       margin: 0; } }
 
 #logo_cookoon_bar_gold {
-  height: 2rem;
+  height: 3rem;
   width: auto;
   margin-bottom: 2rem; }
 
@@ -215,7 +219,7 @@
 .control-margin {
   margin: 4rem 0; }
 
-.card_double_img_on_left, .card_double_img_on_right {
+.card_double_img_on_left, .card_double_img_on_right, .card_one_img_on_left {
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -240,7 +244,8 @@
       -ms-grid-columns: (29.5vw)[3];
       grid-template-columns: repeat(3, 29.5vw);
       -ms-grid-rows: (29.5vw)[1];
-      grid-template-rows: repeat(1, 29.5vw); } }
+      grid-template-rows: repeat(1, 29.5vw);
+      padding-bottom: 1.5rem; } }
 
 .card_four_images_img {
   height: 19vw;
@@ -361,6 +366,44 @@
   font-size: 2.5rem;
   cursor: pointer; }
 
+.card_one_image {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (39vw)[1];
+  grid-template-columns: repeat(1, 39vw);
+  -ms-grid-rows: (39vw)[1];
+  grid-template-rows: repeat(1, 39vw); }
+  @media (max-width: 991px) {
+    .card_one_image {
+      -ms-grid-columns: (29.5vw)[1];
+      grid-template-columns: repeat(1, 29.5vw);
+      -ms-grid-rows: (29.5vw)[1];
+      grid-template-rows: repeat(1, 29.5vw); } }
+
+.card_one_image_img {
+  height: 38vw;
+  width: 38vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-grid-row-align: center;
+      align-self: center; }
+  @media (max-width: 991px) {
+    .card_one_image_img {
+      height: 28.5vw;
+      width: 28.5vw; } }
+
+.sous_texte h1 {
+  font-size: 8rem;
+  margin: 0; }
+
+.sur_texte {
+  color: #0074d9;
+  position: relative;
+  bottom: 4rem;
+  font-weight: bold; }
+
 @media (max-width: 991px) {
   .small_screen_hide {
     display: none; } }
@@ -369,13 +412,20 @@
   .big_screen_hide {
     display: none; } }
 
+@font-face {
+  src: url("fonts/cochinitalic.eot");
+  src: url("fonts/cochinitalic.eot?#iefix") format("embedded-opentype"), url("fonts/cochinitalic.woff2") format("woff2");
+  src: url("fonts/Cochin-Italic.ttf") format("truetype"), url("fonts/Cochin-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 @media (max-width: 991px) {
   html {
     font-size: 80%; } }
 
 @media (min-width: 992px) {
   html {
-    font-size: 100%; } }
+    font-size: 90%; } }
 
 body {
   margin: 0;
@@ -388,6 +438,7 @@ body {
   text-align: center; }
 
 h1 {
+  font-family: cochin !important;
   font-size: 2rem;
   font-weight: normal; }
   @media (max-width: 991px) {
