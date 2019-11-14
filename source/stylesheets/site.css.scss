@@ -73,6 +73,9 @@ body {
 h1 {
   font-size: 2rem;
   font-weight: normal;
+  @media (max-width: 991px) {
+    font-size: 1.5rem;
+  }
 }
 
 // h2 {
@@ -94,7 +97,9 @@ a {
 
   &:focus,
   &:hover {
-    color: rgba(#000, 0.6);
+    // color: rgba(#000, 0.6);
+    text-decoration: none;
+    font-weight: bold;
   }
 }
 
@@ -115,6 +120,9 @@ button {
 .cont {
   // padding: 2rem 8rem;
   padding: 2rem 10vw;
+    @media (max-width: 991px) {
+    padding: 2rem 5vw;
+  }
 }
 
 #page_under_construction {

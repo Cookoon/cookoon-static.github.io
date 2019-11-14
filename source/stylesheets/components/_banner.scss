@@ -4,4 +4,9 @@
   // padding: 8rem 0;
   height: 50vh;
   width: auto;
+    @media (max-width: 991px) {
+    height: 40vh;
+  }
 }
+
+

@@ -10,6 +10,10 @@
   grid-template-columns: repeat(2, 20vw);
   // grid-gap: 1vmin;
   grid-template-rows: repeat(2, 20vw);
+    @media (max-width: 991px) {
+    grid-template-columns: repeat(3, 29.5vw);
+    grid-template-rows: repeat(1, 29.5vw);
+  }
 }
 
 .card_four_images_img {
@@ -18,24 +22,31 @@
   object-fit: cover;
   justify-self: start;
   align-self: start;
+    @media (max-width: 991px) {
+    height: 28.5vw;
+    width: 28.5vw;
+    }
 }
 
 .one {
   grid-column: 1;
   grid-row: 1;
-
 }
 
 .two {
   grid-column: 2;
   grid-row: 1;
   justify-self: end; // horizontal
-
 }
+
 .three {
   grid-column: 1;
   grid-row: 2;
   align-self: end; // vertical
+    @media (max-width: 991px) {
+    grid-column: 3;
+    grid-row: 1;
+  }
 }
 
 .four {
@@ -43,7 +54,16 @@
   grid-row: 2;
   justify-self: end; // horizontal
   align-self: end; // vertical
+    @media (max-width: 991px) {
+    display: none;
+  }
 }
 
+.one, .two, .three {
+    @media (max-width: 991px) {
+    align-self: center;
+    justify-self: center;
+  }
+}
 
 
