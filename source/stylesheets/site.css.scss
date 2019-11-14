@@ -1,4 +1,5 @@
 @import "components/index";
+@import "fonts.css.scss";
 // @import "bootstrap-sprockets";
 // @import "bootstrap";
 // @import 'bootstrap';
@@ -52,7 +53,7 @@ html {
 
   // macbook
   @media (min-width: 992px) {
-    font-size: 100%;
+    font-size: 90%;
   }
 }
 
@@ -71,6 +72,7 @@ body {
 }
 
 h1 {
+  font-family: cochin !important;
   font-size: 2rem;
   font-weight: normal;
   @media (max-width: 991px) {

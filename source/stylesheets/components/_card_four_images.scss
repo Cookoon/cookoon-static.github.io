@@ -11,8 +11,9 @@
   // grid-gap: 1vmin;
   grid-template-rows: repeat(2, 19.5vw);
     @media (max-width: 991px) {
-    grid-template-columns: repeat(3, 29.5vw);
-    grid-template-rows: repeat(1, 29.5vw);
+      grid-template-columns: repeat(3, 29.5vw);
+      grid-template-rows: repeat(1, 29.5vw);
+      padding-bottom: 1.5rem;
   }
 }
 

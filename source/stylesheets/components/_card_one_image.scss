@@ -1,0 +1,22 @@
+.card_one_image {
+  display: grid;
+  grid-template-columns: repeat(1, 39vw);
+  // grid-gap: 1vmin;
+  grid-template-rows: repeat(1, 39vw);
+    @media (max-width: 991px) {
+    grid-template-columns: repeat(1, 29.5vw);
+    grid-template-rows: repeat(1, 29.5vw);
+  }
+}
+
+.card_one_image_img {
+  height: 38vw;
+  width: 38vw;
+  object-fit: cover;
+  justify-self: center;
+  align-self: center;
+    @media (max-width: 991px) {
+    height: 28.5vw;
+    width: 28.5vw;
+    }
+}

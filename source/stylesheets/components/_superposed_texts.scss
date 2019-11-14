@@ -1,0 +1,23 @@
+
+// .sous_texte {
+//   // position: absolute;
+//   background-color: red;
+// }
+
+// .sur_texte {
+//   position: relative;
+//   top: 0;
+//   left: 0;
+// }
+
+.sous_texte h1 {
+  font-size: 8rem;
+  margin: 0;
+}
+
+.sur_texte {
+  color: #0074d9;
+  position: relative;
+  bottom: 4rem;
+  font-weight: bold;
+}

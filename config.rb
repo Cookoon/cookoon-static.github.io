@@ -12,6 +12,8 @@ activate :livereload
 # set :relative_links, 'true'
 set :images_dir, 'images'
 
+set :fonts_dir, 'fonts'
+
 
 configure :build do
   # set :relative_links, true
