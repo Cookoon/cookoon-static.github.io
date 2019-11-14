@@ -7,9 +7,9 @@
   // align-content: space-between;
   // border-style: solid;
   display: grid;
-  grid-template-columns: repeat(2, 20vw);
+  grid-template-columns: repeat(2, 19.5vw);
   // grid-gap: 1vmin;
-  grid-template-rows: repeat(2, 20vw);
+  grid-template-rows: repeat(2, 19.5vw);
     @media (max-width: 991px) {
     grid-template-columns: repeat(3, 29.5vw);
     grid-template-rows: repeat(1, 29.5vw);
@@ -17,8 +17,8 @@
 }
 
 .card_four_images_img {
-  height: 19.5vw;
-  width: 19.5vw;
+  height: 19vw;
+  width: 19vw;
   object-fit: cover;
   justify-self: start;
   align-self: start;
