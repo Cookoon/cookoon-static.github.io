@@ -5,7 +5,10 @@
   height: 50vh;
   width: auto;
     @media (max-width: 991px) {
-    height: 40vh;
+    height: 60vh;
+  }
+    @media (max-width: 991px) and (orientation: landscape) {
+    height: 80vh;
   }
 }
 

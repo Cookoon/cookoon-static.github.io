@@ -1,7 +1,7 @@
 .btn_gold_in_card {
-  margin-top: 1rem;
+  margin-top: 3rem;
   // width: auto;
-  background: #CDBB8A;
+  background-color: #CDBB8A;
   color: white !important;
   // font-weight: bold;
   text-decoration: none;
@@ -15,7 +15,8 @@
   // transition: opacity 0.3s ease;
   cursor: pointer;
   width:fit-content;
-  align-self: center;
+  align-self: left;
+  text-transform: uppercase;
 
 }
 
@@ -23,6 +24,7 @@
   color: white;
   border: 1px solid white;
   padding: 0.5rem 1rem;
+  text-transform: uppercase;
   // border-radius: 50px;
   // font-weight: lighter;
   // opacity: 0.6;
