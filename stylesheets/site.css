@@ -35,10 +35,11 @@
   margin-left: 0; }
 
 #logo_cookoon_navbar {
-  height: 3rem; }
+  height: 1.5rem; }
   @media (min-width: 992px) {
     #logo_cookoon_navbar {
-      margin-right: 2rem; } }
+      margin-right: 2rem;
+      height: 3rem; } }
 
 .footer {
   background-color: black;
