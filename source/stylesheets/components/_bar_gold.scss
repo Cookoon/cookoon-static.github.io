@@ -1,15 +1,25 @@
+.cont_bar_gold {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
 .bar_gold {
   background-color: #CDBB8A;
   // opacity: 60%;
   color: white;
   align-items: center;
-  margin: 2rem 0;
+  // margin: 2rem 0;
   padding: 2rem 5.8rem;
+    @media (max-width: 991px) {
+    padding: 2rem 1rem;
+    margin: 0;
+  }
 }
 
 #logo_cookoon_bar_gold {
   height: 2rem;
   width: auto;
+  margin-bottom: 2rem;
 }
 
 .bar_gold > p {
@@ -32,4 +42,8 @@
 .logos_bar_gold {
   height: inherit;
   margin: 0 2rem;
+}
+
+.bar_gold h1 {
+  margin-bottom: 2rem;
 }

@@ -1,20 +1,22 @@
-.btn_gold {
-  background: #CDBB8A;
-  color: white;
-  // font-weight: bold;
-  text-decoration: none;
-  text-align: center;
-  // border: 1px solid #4A4A4A;
-  padding: 8px 24px;
-  // border-radius: 50px;
-  // width: 50%;
-  display:inline;
-  // opacity: 0.6;
-  transition: opacity 0.3s ease;
-}
-
 .btn_gold_in_card {
   margin-top: 1rem;
+  // width: auto;
+  background: #CDBB8A;
+  color: white !important;
+  // font-weight: bold;
+  text-decoration: none;
+  // text-align: center;
+  // border: 1px solid #4A4A4A;
+  padding: 1rem 2rem;
+  // border-radius: 50px;
+  // width: 50%;
+  // display:inline;
+  // opacity: 0.6;
+  // transition: opacity 0.3s ease;
+  cursor: pointer;
+  width:fit-content;
+  align-self: center;
+
 }
 
 .btn_navbar_black {

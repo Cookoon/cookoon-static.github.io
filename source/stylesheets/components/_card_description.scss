@@ -1,8 +1,8 @@
 .card_description {
   height: auto;
   height-max: 48rem;
-  width: auto;
-  max-width: 50%;
+  width: 32.5vw;
+  // max-width: 50%;
   // border: 2px;
   // border-style: solid;
   padding: 0 7.5%;
@@ -10,6 +10,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  @media (max-width: 991px) {
+    width: 88vw;
+    padding: 1rem 0;
+    text-align: justify;
+  }
+
 }
 
 .bande_horizontale {
@@ -28,12 +34,17 @@
 
 .card_banner {
   background-color: white;
-  opacity: 80% ;
+  // opacity: 80% ;
   position: relative;
   top: 5vmin;
   left:5vmin;
   padding: 2%;
-  width: 32.5vw;
+  // width: 32.5vw;
+  margin: 0 !important;
+  @media (max-width: 991px) {
+    width: 65vw;
+    // padding: 1rem 0 0 0;
+  }
 }
 
 // .image-card {
