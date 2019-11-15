@@ -57,6 +57,10 @@ html {
   }
 }
 
+// body.modal-open {
+//   position: absolute !important;
+// }
+
 body {
   // background-color: #fbc547;
   margin: 0;
@@ -72,20 +76,14 @@ body {
 }
 
 h1 {
-  font-family: cochin !important;
-  font-size: 2rem;
-  font-weight: bold;
+  // font-family: cochin !important;
+  font-family: 'GFS Didot', serif !important;
+  font-size: 1.75rem;
+  // font-weight: bold;
   @media (max-width: 991px) {
     font-size: 1.5rem;
   }
 }
-
-// h2 {
-//   font-size: 1rem; // remettre sinon le user agent stylesheet le modifie
-//   text-decoration: none;
-//   font-weight: normal;
-//   margin: 0;
-// }
 
 h3 {
   font-size: 1rem; // remettre sinon le user agent stylesheet le modifie

@@ -1,18 +1,23 @@
 .cont_carousel {
-  height: 24rem;
-  width: 24rem;
+  height: 50vh;
+  width: 50vw;
   // width: auto;
   // max-width: 24rem;
   display: flex;
   align-items: center;
+  margin: 0.5rem;
 }
 
 .carousel_img {
-  height: 24rem;
-  width: 100%;
+  height: 50vh;
+  width: 50vw;
   object-fit: cover;
 }
 
 .control-margin {
-  margin: 4rem 0;
+  margin: 5rem 0;
+}
+
+.modal_dialog_margin {
+  margin-top: 20vh;
 }
