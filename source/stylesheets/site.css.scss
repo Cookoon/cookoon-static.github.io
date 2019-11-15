@@ -117,14 +117,10 @@ button {
   }
 }
 
-.cont {
-  // padding: 2rem 8rem;
-  padding: 2rem 10vw;
-    @media (max-width: 991px) {
-    padding: 2rem 5vw;
-  }
-}
-
 #page_under_construction {
   margin-top:20%;
+}
+
+br {
+  font-size: 0rem;
 }
