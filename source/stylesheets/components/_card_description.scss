@@ -2,11 +2,6 @@
   height: auto;
   height-max: 48rem;
   width: 32.5vw;
-  // max-width: 50%;
-  // border: 2px;
-  // border-style: solid;
-  // padding: 0 7.5%;
-  // padding: 0;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -14,7 +9,6 @@
   @media (max-width: 991px) {
     width: 88vw;
     padding: 1rem 0;
-    text-align: justify;
   }
 }
 
@@ -59,11 +53,3 @@
     // padding: 1rem 0 0 0;
   }
 }
-
-// .image-card {
-//   width: 100%;
-//   height: 240px;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   position: relative;
-// }

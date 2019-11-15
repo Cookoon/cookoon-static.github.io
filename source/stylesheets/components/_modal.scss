@@ -6,7 +6,7 @@
 .modal-dialog {
     text-align: left; /* you'll likely want this */
     max-width: 100%;
-    width: auto !important;
+    width: 80vw;
     display: inline-block;
 }
 
@@ -15,8 +15,8 @@
   z-index: 1;
   right: 0;
   top: 0;
-  width: 20%;
-  height: 15%;
+  width: 7.5%;
+  height: 7.5%;
   display: flex;
   align-items: center;
   justify-content: center;
