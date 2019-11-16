@@ -74,6 +74,9 @@
 
 .col_footer {
   margin: 0rem 2rem; }
+  @media (max-width: 991px) {
+    .col_footer {
+      margin: 0rem 0.5rem; } }
 
 #logo_adresse_col {
   display: flex;
@@ -195,6 +198,9 @@
   flex-wrap: wrap;
   margin: -0.5rem 0 0 0;
   width: auto; }
+  @media (max-width: 991px) {
+    #barre_logos_bar_gold {
+      margin-top: 0.5; } }
 
 .logos_bar_gold, .logos_bar_gold_five_logos {
   margin: 1rem 2rem 0 2rem; }
