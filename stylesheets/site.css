@@ -234,6 +234,10 @@
   text-align: right;
   margin-top: 1rem; }
 
+@media (max-width: 991px) {
+  .margin_bottom_no_mobile {
+    margin-bottom: 0.5rem !important; } }
+
 .cont_carousel {
   height: 65vh;
   width: 80vw;
