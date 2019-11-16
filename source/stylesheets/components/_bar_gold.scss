@@ -62,9 +62,9 @@
 }
 
 .logos_bar_gold {
-  height: 4rem;
+  height: 3rem;
   @media (max-width: 991px) {
-    height: 2rem;
+    height: 1.5rem;
   }
 }
 
@@ -75,10 +75,17 @@
   }
 }
 
-.logos_bar_gold_small {
-  height: 8rem;
+#logo_orange {
+  height: 7rem;
   @media (max-width: 991px) {
-    height: 4rem;
+    height: 3rem;
+  }
+}
+
+#logo_elle {
+  height: 4rem;
+  @media (max-width: 991px) {
+    height: 2rem;
   }
 }
 
