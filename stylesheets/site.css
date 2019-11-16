@@ -52,7 +52,9 @@
 #logo_footer {
   height: 2rem;
   -ms-grid-row-align: center;
-      align-self: center; }
+      align-self: center;
+  margin-right: 7.5rem;
+  margin-left: 7.5rem; }
 
 .footer a {
   color: white;
