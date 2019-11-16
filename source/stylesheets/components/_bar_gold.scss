@@ -92,3 +92,9 @@
   text-align: right;
   margin-top: 1rem;
 }
+
+.margin_bottom_no_mobile {
+  @media (max-width: 991px) {
+    margin-bottom: 0.5rem !important;
+  }
+}
