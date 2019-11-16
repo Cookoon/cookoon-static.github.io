@@ -1,6 +1,15 @@
 @font-face {
-  src: url("fonts/cochinitalic.eot");
-  src: url("fonts/cochinitalic.eot?#iefix") format("embedded-opentype"), url("fonts/cochinitalic.woff2") format("woff2");
-  src: url("fonts/Cochin-Italic.ttf") format("truetype"), url("fonts/Cochin-Italic.woff") format("woff");
+  font-family: 'cochinitalic';
+  src: 'fonts/cochinitalic.eot';
+  src: "fonts/cochinitalic.eot?#iefix" format("embedded-opentype");
+  src: "fonts/cochinitalic.woff2" format("woff2");
+  src: "fonts/Cochin-Italic.ttf" format("truetype");
+  src: "fonts/Cochin-Italic.woff" format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GFS Didot';
+  src: "fonts/GFSDidot-Regular.ttf" format("truetype");
   font-weight: normal;
   font-style: normal; }
