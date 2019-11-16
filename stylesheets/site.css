@@ -211,10 +211,10 @@
       margin: 1rem 0.5rem 0 0.5rem; } }
 
 .logos_bar_gold {
-  height: 4rem; }
+  height: 3rem; }
   @media (max-width: 991px) {
     .logos_bar_gold {
-      height: 2rem; } }
+      height: 1.5rem; } }
 
 .logos_bar_gold_five_logos {
   height: 3rem; }
@@ -222,11 +222,17 @@
     .logos_bar_gold_five_logos {
       height: 1.5rem; } }
 
-.logos_bar_gold_small {
-  height: 8rem; }
+#logo_orange {
+  height: 7rem; }
   @media (max-width: 991px) {
-    .logos_bar_gold_small {
-      height: 4rem; } }
+    #logo_orange {
+      height: 3rem; } }
+
+#logo_elle {
+  height: 4rem; }
+  @media (max-width: 991px) {
+    #logo_elle {
+      height: 2rem; } }
 
 .bar_gold h1 {
   margin-bottom: 2rem; }
