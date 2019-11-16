@@ -49,6 +49,9 @@
   margin: -0.5rem 0 0 0;
   // height: 4rem;
   width: auto;
+  @media (max-width: 991px) {
+    margin-top: -0.5rem;
+  }
 }
 
 .logos_bar_gold, .logos_bar_gold_five_logos {
