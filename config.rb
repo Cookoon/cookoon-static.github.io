@@ -47,6 +47,14 @@ configure :build do
     }
   end
 
+  activate :google_analytics do |ga|
+    ga.tracking_id = data.settings.google_analytics.tracking_code
+    ga.anonymize_ip = true
+    ga.debug = false
+    ga.development = false
+    ga.minify = true
+end
+
 end
 
 # Notre gem installée, il faut maintenant la configurer. Middleman-deploy offre plusieurs possibilités de déploiement via ftp, sftp, rsync ou git. On doit donc lui indiquer quelle méthode on choisit. On va cette fois ouvrir le fichier config.rb et ajouter ce qui suit avant le bloc configure:

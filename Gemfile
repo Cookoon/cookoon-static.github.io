@@ -10,3 +10,4 @@ gem 'middleman-livereload'
 # gem 'bootstrap', '~> 4.0'
 # gem 'font-awesome-sass', '~> 5.6.1'
 gem "middleman-favicon-maker", "~> 4.1"
+gem 'middleman-google-analytics'
