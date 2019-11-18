@@ -1,9 +1,10 @@
 .modal_dialog_full_screen {
   margin: 0;
+  width: 100vw;
 }
 
 .modal_content_full_screen {
-  width: 100vw;
+  // width: 100% !important;
   height: 100%;
   padding: 0 2rem;
 }
@@ -30,4 +31,8 @@
 .modal_background {
   background-color: white;
   opacity: 1;
+}
+
+#modal_hamburger {
+  padding-right: 0 !important;
 }
