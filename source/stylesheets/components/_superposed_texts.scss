@@ -1,24 +1,39 @@
 .cont_superposed_texts {
   position: relative;
   z-index: 1;
-  height: 8rem;
+  height: 6rem;
+  margin: 2rem 0;
+  @media (max-width: 991px) {
+    height: 4rem;
+    margin: 1rem 0 0 0;
+  }
 }
 
-.sur-texte, .sous_texte {
+.sur_texte, .sous_texte {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 8rem;
+  // height: 8rem;
   left: 0;
-  top: 0;
+  @media (max-width: 991px) {
+    // height: 5rem;
+  }
 }
 
-.sur-texte{
+.sur_texte{
   z-index: 3;
+  top: 2rem;
+    @media (max-width: 991px) {
+    top: 1.25rem;
+  }
 }
 
 .sous_texte {
   z-index: 2;
   opacity: 0.9;
+  top: 0;
 }
 
 .sur_texte > h1, .sous_texte > h2  {
@@ -29,6 +44,9 @@
 .sur_texte > h1 {
   color: black;
   font-size: 3rem;
+  @media (max-width: 991px) {
+    font-size: 2rem;
+  }
 }
 
 .sous_texte > h2 {
@@ -36,6 +54,9 @@
   font-size: 6rem;
   font-style: italic;
   opacity: 0.6;
+  @media (max-width: 991px) {
+    font-size: 4rem;
+  }
 }
 
 
