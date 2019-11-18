@@ -103,11 +103,3 @@ page "404.html", :layout => 'page_under_construction'
 #   activate :minify_css
 #   activate :minify_javascript
 # end
-
-activate :google_analytics do |ga|
-  ga.tracking_id = data.settings.google_analytics.tracking_code
-  ga.anonymize_ip = true
-  ga.debug = false
-  ga.development = false
-  ga.minify = true
-end
