@@ -1,12 +1,18 @@
 .btn_gold_in_card {
+  border: 0.1rem solid #CDBB8A;
   margin-top: 3rem;
   background-color: #CDBB8A;
-  color: white !important;
+  color: white;
   padding: 1rem 2rem;
   cursor: pointer;
   width:fit-content;
   align-self: left;
   text-transform: uppercase;
+  &:focus,
+  &:hover{
+    background-color: white;
+    color: #CDBB8A;
+  }
 }
 
 .btn_navbar_black {
