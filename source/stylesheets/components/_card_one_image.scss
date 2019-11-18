@@ -4,7 +4,7 @@
   // grid-gap: 1vmin;
   grid-template-rows: repeat(1, 39vw);
     @media (max-width: 991px) {
-    grid-template-columns: repeat(1, 29.5vw);
+    grid-template-columns: repeat(1, 88.5vw);
     grid-template-rows: repeat(1, 29.5vw);
   }
 }
@@ -17,6 +17,6 @@
   align-self: center;
     @media (max-width: 991px) {
     height: 28.5vw;
-    width: 28.5vw;
+    width: 88.5vw;
     }
 }
