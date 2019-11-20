@@ -106,3 +106,8 @@ page "404.html", :layout => 'page_under_construction'
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+# activer google analytics
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-97725621-1' # Replace with your property ID.
+end
