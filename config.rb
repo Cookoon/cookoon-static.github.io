@@ -111,3 +111,9 @@ page "404.html", :layout => 'page_under_construction'
 activate :google_analytics do |ga|
   ga.tracking_id = 'UA-97725621-1' # Replace with your property ID.
 end
+
+# activer google tag manager
+activate :google_tag_manager do |gtm|
+  gtm.container_id = 'GTM-P3ZBPZG' # required
+  gtm.development = false # Render tag in development environment
+end
