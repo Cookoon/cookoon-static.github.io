@@ -1,7 +1,7 @@
 require 'slim'
 
 # pour obtenir des url sans .html à la fin
-activate :directory_indexes
+# activate :directory_indexes
 
 activate :livereload
 # require 'font-awesome-sass'
