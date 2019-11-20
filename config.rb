@@ -1,5 +1,11 @@
 require 'slim'
 
+# pour obtenir des url sans .html à la fin
+activate :directory_indexes
+
+#
+set :index_file, "default.html"
+
 activate :livereload
 # require 'font-awesome-sass'
 # require 'bootstrap'
