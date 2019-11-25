@@ -1,33 +1,32 @@
+.btn_gold_in_card, #btn_gold_in_card_modal, .btn_navbar_black {
+  border: 1px solid;
+  width:fit-content;
+  color: white;
+  text-transform: uppercase;
+  transition: background 1.5s ease;
+    &:focus,
+    &:hover {
+      background-color: white;
+    }
+}
+
 .btn_gold_in_card, #btn_gold_in_card_modal {
-  border: 1px solid #CDBB8A;
+  border-color: #CDBB8A;
   margin-top: 3rem;
   background-color: #CDBB8A;
-  color: white;
   padding: 1rem 2rem;
-  cursor: pointer;
-  width:fit-content;
   align-self: left;
-  text-transform: uppercase;
   &:focus,
-  &:hover{
-    background-color: white;
+  &:hover {
     color: #CDBB8A;
   }
 }
 
 .btn_navbar_black {
-  width: fit-content;
-  color: white;
-  border: 1px solid white;
+  border-color: white;
   padding: 0.5rem 1rem;
-  text-transform: uppercase;
-  // border-radius: 50px;
-  // font-weight: lighter;
-  // opacity: 0.6;
-  // transition: opacity 0.3s ease;
   &:focus,
-  &:hover{
-    background-color: white;
+  &:hover {
     color: black !important;
     border-color: black;
     font-weight: normal !important;
