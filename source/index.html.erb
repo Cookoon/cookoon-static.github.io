@@ -48,47 +48,54 @@ title: Bienvenue chez Cookoon
       <h1 class="card_title">Les lieux</h1>
       <div class="bande_horizontale"></div>
       <p class="card_text">Une maison à Montmartre, un hôtel particulier à Neuilly, un ancien atelier d’artistes à deux pas du Luxembourg, Cookoon vous ouvre les portes de 70 lieux privés et inaccessibles à Paris et dans sa proche banlieue.</p>
-      <!-- MODAL -->
+
+      <!-- modal carousel -->
       <!-- Button trigger modal -->
       <a id="btn_gold_in_card_modal" data-toggle="modal" data-target="#exampleModal">Voir les photos <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal_dialog_margin" role="document">
+        <div class="modal-dialog" role="document">
           <div class="modal-content">
-            <div class="modal-body" style="padding: 0 !important">
+            <div class="modal-body">
+
               <!-- bouton close -->
-              <div id="close_modal">
-                <button type="button" class="close button_close_modal" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </div>
-              <!-- carrousel -->
-              <div id="carouselExampleIndicators4" class="carousel slide cont_carousel" data-ride="carousel">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <i class="fas fa-times"></i>
+              </button>
+
+              <!-- indicateur de slide -->
+              <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
                   <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
                   <li data-target="#carouselExampleIndicators4" data-slide-to="3"></li>
                 </ol>
+
+                <!-- emplacement photos -->
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <%= image_tag 'cookoon-spot-7.jpg', alt:'First slide', class: 'carousel_img' %>
+                    <img class="d-block" src="images/cookoon-spot-7.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <%= image_tag 'cookoon-spot-5.jpg', alt:'Second slide', class: 'carousel_img' %>
+                    <img class="d-block" src="images/cookoon-spot-5.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <%= image_tag 'cookoon-spot-4.jpg', alt:'Third slide', class: 'carousel_img' %>
+                    <img class="d-block" src="images/cookoon-spot-4.jpg" alt="Third slide">
                   </div>
                   <div class="carousel-item">
-                    <%= image_tag 'cookoon-spot-6.jpg', alt:'Third slide', class: 'carousel_img' %>
+                    <img class="d-block" src="images/cookoon-spot-6.jpg" alt="Fourth slide">
                   </div>
                 </div>
-                <a class="carousel-control-prev control-margin" href="#carouselExampleIndicators4" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                <!-- flèches pour changer de photo -->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                  <i class="fas fa-chevron-left carrousel-chevron-left"></i>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next control-margin" href="#carouselExampleIndicators4" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                  <i class="fas fa-chevron-right carrousel-chevron-right"></i>
                   <span class="sr-only">Next</span>
                 </a>
               </div>

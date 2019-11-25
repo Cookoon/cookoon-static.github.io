@@ -1,25 +1,71 @@
-.cont_carousel {
-  height: 65vh;
-  width: 80vw;
-  // width: auto;
-  // max-width: 24rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  // margin: 0.5rem;
-  border: solid white 0.5rem;
+// .cont_carousel {
+//   height: 65vh;
+//   width: 80vw;
+//   // width: auto;
+//   // max-width: 24rem;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   // margin: 0.5rem;
+//   border: solid white 0.5rem;
+// }
+
+// .carousel_img {
+//   height: 64vh;
+//   width: 78.75vw;
+//   object-fit: cover;
+// }
+
+// .control-margin {
+//   margin: 5rem 0;
+// }
+
+// .modal_dialog_margin {
+//   margin-top: 15vh;
+// }
+
+.modal-dialog {
+  margin-top: 15vh
 }
 
-.carousel_img {
-  height: 64vh;
-  width: 78.75vw;
+.close {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  z-index:1;
+  right:0;
+  font-size: 1.5rem;
+  color: white;
+    &:focus,
+    &:hover {
+      opacity: 0.9;
+      color: white;
+    }
+}
+
+.carousel-indicators {
+  bottom: -4rem;
+}
+
+.d-block {
+  width:80vw;
+  height:65vh;
   object-fit: cover;
 }
 
-.control-margin {
-  margin: 5rem 0;
+.carousel-control-prev, .carousel-control-next {
+  width: 4rem;
+  height: 4rem;
+  top: 65vh;
 }
 
-.modal_dialog_margin {
-  margin-top: 15vh;
+.carrousel-chevron-left, .carrousel-chevron-right {
+  color: white;
+  font-size: 1.5rem;
 }
+
+.modal-body {
+  border: solid white 0.2rem;
+  padding: 0;
+}
+
