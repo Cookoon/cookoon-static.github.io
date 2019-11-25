@@ -11,7 +11,7 @@
   .navbar_black a:hover {
     color: white;
     text-decoration: none;
-    font-weight: bold; }
+    cursor: pointer; }
   @media (max-width: 991px) {
     .navbar_black {
       padding: 1rem; } }
@@ -138,38 +138,38 @@
   background-size: cover;
   background-position: center;
   height: 60vh;
-  width: auto; }
+  width: auto;
+  border-radius: 0.25rem; }
   @media (max-width: 991px) and (orientation: landscape) {
     .banner {
       height: 80vh; } }
 
-.btn_gold_in_card, #btn_gold_in_card_modal {
-  border: 1px solid #CDBB8A;
-  margin-top: 3rem;
-  background-color: #CDBB8A;
-  color: white;
-  padding: 1rem 2rem;
-  cursor: pointer;
+.btn_gold_in_card, #btn_gold_in_card_modal, .btn_navbar_black {
+  border: 1px solid;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: white;
+  text-transform: uppercase;
+  -webkit-transition: background 1.5s ease;
+  transition: background 1.5s ease; }
+  .btn_gold_in_card:focus, .btn_gold_in_card:hover, #btn_gold_in_card_modal:focus, #btn_gold_in_card_modal:hover, .btn_navbar_black:focus, .btn_navbar_black:hover {
+    background-color: white; }
+
+.btn_gold_in_card, #btn_gold_in_card_modal {
+  border-color: #CDBB8A;
+  margin-top: 3rem;
+  background-color: #CDBB8A;
+  padding: 1rem 2rem;
   -ms-grid-row-align: left;
-      align-self: left;
-  text-transform: uppercase; }
+      align-self: left; }
   .btn_gold_in_card:focus, .btn_gold_in_card:hover, #btn_gold_in_card_modal:focus, #btn_gold_in_card_modal:hover {
-    background-color: white;
     color: #CDBB8A; }
 
 .btn_navbar_black {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: white;
-  border: 1px solid white;
-  padding: 0.5rem 1rem;
-  text-transform: uppercase; }
+  border-color: white;
+  padding: 0.5rem 1rem; }
   .btn_navbar_black:focus, .btn_navbar_black:hover {
-    background-color: white;
     color: black !important;
     border-color: black;
     font-weight: normal !important; }
@@ -336,7 +336,8 @@
   -ms-grid-column-align: start;
       justify-self: start;
   -ms-grid-row-align: start;
-      align-self: start; }
+      align-self: start;
+  border-radius: 0.25rem; }
   @media (max-width: 991px) {
     .card_four_images_img {
       height: 28.5vw;
@@ -471,7 +472,8 @@
   -ms-grid-column-align: center;
       justify-self: center;
   -ms-grid-row-align: center;
-      align-self: center; }
+      align-self: center;
+  border-radius: 0.25rem; }
   @media (max-width: 991px) {
     .card_one_image_img {
       height: 28.5vw;
