@@ -24,7 +24,7 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=GFS+Didot&display=swap" rel="stylesheet"> -->
 
     <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
+    <%#= javascript_include_tag "site" %>
 
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/a824697d3a.js" crossorigin="anonymous"></script>
@@ -53,7 +53,6 @@
 
   </head>
   <body>
-
     <%= partial 'partials/navbar.html' %>
 
     <%= yield %>
@@ -62,5 +61,7 @@
 
     <%= google_analytics_tag %>
     <%= google_tag_manager %>
+
+    <%= javascript_include_tag "site" %>
   </body>
 </html>

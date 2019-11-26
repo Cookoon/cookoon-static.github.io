@@ -13,7 +13,8 @@
   // margin: 0 0.75rem;
   margin: 0 4vw;
   text-decoration: none;
-    &:hover {
+    &:hover,
+    &:focus {
     color: #CDBB8A;
   }
 }
@@ -30,6 +31,9 @@
   }
 }
 
+.menuTab.active {
+    color: #CDBB8A;
+}
 
 
 
