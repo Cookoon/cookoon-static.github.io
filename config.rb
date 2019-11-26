@@ -8,13 +8,12 @@ activate :livereload
 # require 'bootstrap'
 
 # set :css_dir, 'stylesheets'
-# set :js_dir, 'javascripts'
 # set :images_dir, 'images'
 # set :partials_dir, 'partials'
 # set :build_dir, 'public_html'
 # set :relative_links, 'true'
 set :images_dir, 'images'
-
+set :js_dir, 'javascripts'
 set :fonts_dir, 'fonts'
 
 configure :build do
@@ -76,7 +75,7 @@ page '/*.txt', layout: false
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
-page "404.html", :layout => 'page_under_construction'
+page "404", :layout => 'page_under_construction'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
