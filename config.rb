@@ -75,7 +75,7 @@ page '/*.txt', layout: false
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
-page "404", :layout => 'page_under_construction', directory_index: false
+page "404.html", :layout => 'page_under_construction'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
