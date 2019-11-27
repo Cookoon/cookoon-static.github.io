@@ -5,7 +5,8 @@ activate :directory_indexes
 
 activate :livereload
 
-
+activate :minify_css
+activate :minify_javascript
 # require 'font-awesome-sass'
 # require 'bootstrap'
 
@@ -49,9 +50,6 @@ configure :build do
       ]
     }
   end
-
-  activate :minify_css
-  activate :minify_javascript
 
 end
 
