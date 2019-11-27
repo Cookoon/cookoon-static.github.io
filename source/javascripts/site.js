@@ -1,8 +1,7 @@
-
 $(document).ready(function() {
-  const path = window.location.pathname.split("/").pop();
+  var path = window.location.pathname.split("/").pop();
 
-  document.querySelectorAll("menuTab").forEach((tab) => {
+  document.querySelectorAll("menuTab").forEach(function(tab) {
       tab.classList.remove("active");
     });
 
@@ -12,6 +11,3 @@ $(document).ready(function() {
     document.getElementById("professionnel").classList.add("active");
   }
 });
-
-
-
