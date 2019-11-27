@@ -50,6 +50,24 @@ configure :build do
 
 end
 
+activate :s3_sync do |s3_sync|
+  s3_sync.bucket                     = 'my.bucket.com' # The name of the S3 bucket you are targeting. This is globally unique.
+  s3_sync.region                     = 'us-west-1'     # The AWS region for your bucket.
+  s3_sync.aws_access_key_id          = 'AWS KEY ID'
+  s3_sync.aws_secret_access_key      = 'AWS SECRET KEY'
+  s3_sync.delete                     = false # We delete stray files by default.
+  s3_sync.after_build                = false # We do not chain after the build step by default.
+  s3_sync.prefer_gzip                = true
+  s3_sync.path_style                 = true
+  s3_sync.reduced_redundancy_storage = false
+  s3_sync.acl                        = 'public-read'
+  s3_sync.encryption                 = false
+  s3_sync.prefix                     = ''
+  s3_sync.version_bucket             = false
+  s3_sync.index_document             = 'index.html'
+  s3_sync.error_document = '404.html'
+end
+
 # Notre gem installée, il faut maintenant la configurer. Middleman-deploy offre plusieurs possibilités de déploiement via ftp, sftp, rsync ou git. On doit donc lui indiquer quelle méthode on choisit. On va cette fois ouvrir le fichier config.rb et ajouter ce qui suit avant le bloc configure:
 activate :deploy do |deploy|
   deploy.build_before   = true
@@ -75,7 +93,7 @@ page '/*.txt', layout: false
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
-page "404.html", :layout => 'page_under_construction'
+page "/404.html", :layout => 'page_under_construction', directory_index: false
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
@@ -101,10 +119,10 @@ page "404.html", :layout => 'page_under_construction'
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+end
 
 # activer google analytics
 activate :google_analytics do |ga|

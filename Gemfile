@@ -13,3 +13,4 @@ gem "middleman-favicon-maker", "~> 4.1"
 gem 'middleman-google-analytics'
 gem 'middleman-google-tag-manager', '~> 1'
 # gem "optional-html"
+gem 'middleman-s3_sync'
