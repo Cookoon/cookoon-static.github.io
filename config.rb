@@ -119,10 +119,10 @@ page "/404.html", :layout => 'page_under_construction', directory_index: false
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-configure :build do
-  activate :minify_css
-  activate :minify_javascript
-end
+# configure :build do
+#   activate :minify_css
+#   activate :minify_javascript
+# end
 
 # activer google analytics
 activate :google_analytics do |ga|
