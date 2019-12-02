@@ -48,9 +48,6 @@
     <meta property="fb:admins" content="facebook_user_id"/>
     <meta property="fb:app_id" content="479250069382529"/>
 
-
-
-
   </head>
   <body>
     <%= partial 'partials/navbar.html' %>
@@ -59,7 +56,8 @@
 
     <%= partial 'partials/footer.html' %>
 
-    <%= javascript_include_tag "site" %>
+    <script type="text/javascript" src="../javascripts/site.js"></script>
+    <%#= javascript_include_tag "site" %>
     <%= google_analytics_tag %>
     <%= google_tag_manager %>
 

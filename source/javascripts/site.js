@@ -15,11 +15,10 @@
 
 var path = window.location.pathname.split("/").pop();
 
-document.querySelectorAll("menuTab").forEach(function(tab) {
+function menuColor() {
+  document.querySelectorAll("menuTab").forEach(function(tab) {
     tab.classList.remove("active");
   });
-
-function menuColor() {
   if (path == "occasions-particulieres") {
     document.getElementById("particulier").classList.add("active");
   } else if (path == "receptions-professionnelles") {
@@ -28,4 +27,5 @@ function menuColor() {
 }
 
 menuColor();
-console.log("Alice");
+// console.log("Alice");
+
