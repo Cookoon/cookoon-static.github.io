@@ -6,7 +6,7 @@ activate :directory_indexes
 activate :livereload
 
 activate :minify_css
-activate :minify_javascript
+# activate :minify_javascript
 activate :gzip
 # require 'font-awesome-sass'
 # require 'bootstrap'
