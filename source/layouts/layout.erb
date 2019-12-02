@@ -62,6 +62,7 @@
     <%= google_analytics_tag %>
     <%= google_tag_manager %>
 
-    <%= javascript_include_tag "site" %>
+    <%#= javascript_include_tag "site" %>
+    <%= javascript_include_tag 'site', 'data-turbolinks-track': 'reload' %>
   </body>
 </html>

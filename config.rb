@@ -1,6 +1,6 @@
 require 'slim'
 
-config.serve_static_assets = true
+# config.serve_static_assets = true
 
 # pour obtenir des url sans .html à la fin
 activate :directory_indexes
