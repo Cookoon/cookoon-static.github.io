@@ -8,7 +8,7 @@ activate :directory_indexes
 activate :livereload
 
 activate :minify_css
-# activate :minify_javascript
+activate :minify_javascript
 activate :gzip
 # require 'font-awesome-sass'
 # require 'bootstrap'
@@ -125,10 +125,10 @@ page "/404.html", directory_index: false # :layout => 'page_under_construction',
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-configure :build do
-  # activate :minify_css
-  activate :minify_javascript
-end
+# configure :build do
+#   activate :minify_css
+#   activate :minify_javascript
+# end
 
 # activer google analytics
 activate :google_analytics do |ga|
