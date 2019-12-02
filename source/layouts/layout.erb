@@ -62,22 +62,6 @@
     <%= google_analytics_tag %>
     <%= google_tag_manager %>
 
-    <%#= javascript_include_tag "site" %>
-    <script>
-    $(document).ready(function() {
-      var path = window.location.pathname.split("/").pop();
-
-      document.querySelectorAll("menuTab").forEach(function(tab) {
-          tab.classList.remove("active");
-        });
-
-      if (path == "occasions-particulieres") {
-        document.getElementById("particulier").classList.add("active");
-      } else if (path == "receptions-professionnelles") {
-        document.getElementById("professionnel").classList.add("active");
-      }
-    });
-    </script>
-
+    <%= javascript_include_tag "site" %>
   </body>
 </html>
