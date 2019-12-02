@@ -1,2 +1,1 @@
-// This is where it all goes :)
-
+function menuColor(){document.querySelectorAll("menuTab").forEach(function(e){e.classList.remove("active")}),"occasions-particulieres"==path?document.getElementById("particulier").classList.add("active"):"receptions-professionnelles"==path&&document.getElementById("professionnel").classList.add("active")}var path=window.location.pathname.split("/").pop();menuColor();
