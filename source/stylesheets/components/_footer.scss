@@ -40,15 +40,20 @@
 
 #cols_footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin: 2rem 0;
+  margin-bottom: 2rem;
 }
 
 .col_footer {
-margin: 0rem 2rem;
-  @media (max-width: 991px) {
-    margin: 0rem 0.5rem;
+  margin: 2rem 2rem 0 2rem;
+    @media (max-width: 991px) {
+      margin: 2rem 0.5rem 0 0.5rem;
+    }
   }
+
+.col_footer > ul {
+  white-space: nowrap;
 }
 
 #logo_adresse_col {
