@@ -33,21 +33,3 @@
     background-color: #CDBB8A;
   }
 }
-
-#mc_embed_signup .button {
-  border: 1px solid !important;
-  width:fit-content !important;
-  color: white !important;
-  text-transform: uppercase !important;
-  transition: background 1.5s ease !important;
-  border-color: #CDBB8A !important;
-  // margin-top: 3rem !important;
-  background-color: #CDBB8A !important;
-  // padding: 1rem 2rem !important;
-  align-self: left !important;
-  &:focus,
-  &:hover {
-    color: #CDBB8A !important;
-    background-color: white !important;
-  }
-}
