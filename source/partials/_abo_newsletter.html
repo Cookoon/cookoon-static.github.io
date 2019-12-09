@@ -94,3 +94,10 @@
   });}(jQuery));var $mcj = jQuery.noConflict(true);</script>
   <!--End mc_embed_signup-->
 </div>
+
+
+<!-- pré-remplissage mail -->
+<script>
+    const mail_user = window.location.search.split("=").pop().replace("%40", "@");
+    document.querySelector("#mce-EMAIL").value = mail_user;
+</script>

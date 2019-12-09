@@ -1,4 +1,4 @@
-.btn_gold_in_card, #btn_gold_in_card_modal, .btn_navbar_black, #btn_gold_footer {
+.btn_gold_in_card, #btn_gold_in_card_modal, .btn_navbar_black, #btn_gold_footer, #btn_newsletter {
   border: 1px solid;
   width:fit-content;
   color: white;
@@ -10,16 +10,24 @@
     }
 }
 
-.btn_gold_in_card, #btn_gold_in_card_modal, #btn_gold_footer {
+.btn_gold_in_card, #btn_gold_in_card_modal, #btn_gold_footer, #btn_newsletter {
   border-color: #CDBB8A;
-  margin-top: 3rem;
   background-color: #CDBB8A;
-  padding: 1rem 2rem;
   align-self: left;
   &:focus,
   &:hover {
     color: #CDBB8A;
   }
+}
+
+.btn_gold_in_card, #btn_gold_in_card_modal, #btn_gold_footer {
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+}
+
+#btn_newsletter {
+  padding: 0.5rem;
+  margin: 0;
 }
 
 .btn_navbar_black {
@@ -33,3 +41,5 @@
     background-color: #CDBB8A;
   }
 }
+
+

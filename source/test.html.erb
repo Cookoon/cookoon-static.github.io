@@ -1,0 +1,6 @@
+<p id="test"></p>
+
+<script>
+    const mail = window.location.search.split("=").pop().replace("%40", "@");
+    document.querySelector("#test").innerText = mail;
+</script>

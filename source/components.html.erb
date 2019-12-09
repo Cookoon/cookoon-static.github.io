@@ -2,6 +2,21 @@
 title: Bienvenue chez Cookoon
 ---
 
+<form action="/test">
+  <label for="ad_e_mail">Ad email</label>
+  <input type="e-mail" name="test_mail" id="emailUser">
+  <button id="go">go</button>
+</form>
+
+<script>
+  element = document.querySelector("#go")
+  element.addEventListener(click, (event) => {
+    const mailOK = document.querySelector("#emailUser.innerText");
+  });
+  // localStorage.setItem("firstname", "Smith");
+</script>
+
+
 <!-- modal carousel -->
 <!-- Button trigger modal -->
 <a id="btn_gold_in_card_modal" data-toggle="modal" data-target="#exampleModal">Voir les photos <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
@@ -197,4 +212,5 @@ title: Bienvenue chez Cookoon
     <%= image_tag 'forbes-logo.png', alt: 'Forbes', class: 'logos_bar_gold' %>
   </div>
 </div>
+
 

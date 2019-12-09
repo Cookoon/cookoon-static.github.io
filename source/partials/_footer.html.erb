@@ -36,13 +36,17 @@
     <div class="col_footer">
       <h3>Newsletter</h3>
 
+      <form action="/newsletter" style="border: 1px solid #CDBB8A; display: flex;">
+        <label for="email"></label>
+        <input type="email" name="email" id="email_user" placeholder="alice@gmail.com" style="background-color: black; color:white; border:none; padding: 0.5rem;">
+        <button id="btn_newsletter">S'inscrire</button>
+      </form>
+
       <!-- Button trigger modal -->
-      <div style="padding:1rem 0;">
-      <a id="btn_gold_footer" data-toggle="modal" data-target="#newsletterInscription">S'inscrire à la newsletter</a>
-      </div>
+        <!-- <a id="btn_gold_footer" data-toggle="modal" data-target="#newsletterInscription">S'inscrire à la newsletter</a> -->
 
       <!-- Modal -->
-      <div class="modal fade" id="newsletterInscription" tabindex="-1" role="dialog" aria-labelledby="newsletterInscriptionLabel" aria-hidden="true">
+      <!-- <div class="modal fade" id="newsletterInscription" tabindex="-1" role="dialog" aria-labelledby="newsletterInscriptionLabel" aria-hidden="true">
         <div class="modal-dialog" id="modal-dialog_newsletter" role="document">
           <div class="modal-content">
             <div class="modal-body">
@@ -50,13 +54,22 @@
                 <span aria-hidden="true">&times;</span>
               </button>
 
-              <%= partial 'partials/abo_newsletter.html' %>
+              <%#= partial 'partials/abo_newsletter.html' %>
 
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
   </div>
 </div>
+
+<!-- <script>
+  element = document.querySelector("#btn_newsletter")
+  element.addEventListener(click, (event) => {
+    const mailOK = document.querySelector("#email_user.value");
+  });
+</script> -->
+
+
