@@ -4,10 +4,11 @@
 }
 
 .modal-dialog {
-    text-align: left; /* you'll likely want this */
-    max-width: 100%;
-    width: 80vw;
-    display: inline-block;
+  text-align: left; /* you'll likely want this */
+  max-width: 100%;
+  width: 80vw;
+  display: inline-block;
+  margin-top: 15vh;
 }
 
 #close_modal {
@@ -38,5 +39,12 @@
 
 #newsletterInscription {
   color: black;
+}
+
+#modal-dialog_newsletter {
+  margin-top: 2vh !important;
+  @media (max-width: 991px) {
+    width: 95vw;
+  }
 }
 

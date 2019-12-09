@@ -1,10 +1,17 @@
+
 .content__gdprLegal a {
   color: #CDBB8A;
   text-decoration: underline;
+  font-size: 0.75rem;
 }
 
 .content__gdprLegal {
-  margin: 2rem 0 1rem 0;
+  // margin: 2.5rem 0 1rem 0;
+}
+
+.content__gdprLegal p {
+  padding: 0.5rem 0;
+  font-size: 0.75rem;
 }
 
 #mc_embed_signup .button {
@@ -14,13 +21,55 @@
   text-transform: uppercase !important;
   transition: background 1.5s ease !important;
   border-color: #CDBB8A !important;
-  // margin-top: 3rem !important;
   background-color: #CDBB8A !important;
-  // padding: 1rem 2rem !important;
   align-self: left !important;
+  margin-top: 2rem !important;
   &:focus,
   &:hover {
     color: #CDBB8A !important;
     background-color: white !important;
+  }
+}
+
+.mc-field-group {
+  padding: 0.5rem 0 !important;
+  width: 100% !important;
+}
+
+#mc_embed_signup_scroll {
+  //padding-bottom: 2rem !important;
+}
+
+#mc_embed_signup_scroll {
+  padding-top: 1.5rem;
+}
+
+.red {
+  color: red;
+}
+
+#mc_embed_signup div#mce-responses {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #CDBB8A !important;
+  font-weight: bold !important;
+  width: 100% !important;
+}
+
+#mc_embed_signup #mce-success-response {
+    color: #CDBB8A !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+}
+
+.mce_inline_error {
+  padding: 0.5rem 0 0 0 !important;
+  margin: 0 !important;
+}
+
+#mc_embed_signup form {
+  padding: 2rem !important;
+  @media (max-width: 991px) {
+    padding: 2rem 0.5rem !important;
   }
 }
