@@ -86,9 +86,11 @@ h1 {
 }
 
 h3 {
-  font-size: 1rem; // remettre sinon le user agent stylesheet le modifie
-  text-decoration: underline;
+  font-family: 'GFS Didot', serif;
+  font-size: 1.2rem; // remettre sinon le user agent stylesheet le modifie
+  // text-decoration: underline;
   text-align: center;
+  // font-weight: bold;
 }
 
 a {
