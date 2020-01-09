@@ -1,14 +1,15 @@
 .banner {
   background-size: cover;
   background-position: center;
-  // padding: 8rem 0;
-  height: 60vh;
+  // height: 60vh;
+  height: 70vh;
   width: auto;
   border-radius: 0.25rem;
     @media (max-width: 991px) {
   }
     @media (max-width: 991px) and (orientation: landscape) {
-    height: 80vh;
+    // height: 80vh;
+    height: 90vh;
   }
 }
 

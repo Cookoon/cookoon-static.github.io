@@ -40,18 +40,24 @@
 
 .card_banner {
   background-color: white;
-  // opacity: 80% ;
-  width: 20vw;
+  width: 25vw;
   position: relative;
   top: 5vmin;
   left:5vmin;
   padding: 2.5rem;
-  // width: 32.5vw;
   margin: 0 !important;
   border-radius: 0.25rem;
-  @media (max-width: 991px) {
-    width: 65vw;
-    // padding: 1rem 0 0 0;
+  @media (max-width: 736px) {
+    width: 70vw;
+    padding: 1.5rem;
+  }
+  @media (min-width: 737px) and (max-width: 1024px) {
+    width: 30vw;
+    padding: 1.5rem;
+  }
+  @media (min-width: 737px) and (max-width: 1023px) and (orientation: landscape) {
+    width: 70vw;
+    padding: 1.5rem;
   }
 }
 
