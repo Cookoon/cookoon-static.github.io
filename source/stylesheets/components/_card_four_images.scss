@@ -17,6 +17,30 @@
   }
 }
 
+.bloc_img_txt {
+  position: relative;
+}
+
+.img_chef {
+  position: absolute;
+}
+
+.chef_name {
+  position: absolute;
+  width:19vw;
+  height: 19vw;
+  display:flex;
+  padding: 2vw;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.75);
+  display: none;
+  @media (min-width: 992px) {
+    &:hover, &:focus {
+      display: inherit;
+    }
+  }
+}
+
 .card_four_images_img {
   height: 19vw;
   width: 19vw;
@@ -24,10 +48,10 @@
   justify-self: start;
   align-self: start;
   border-radius: 0.25rem;
-    @media (max-width: 991px) {
+  @media (max-width: 991px) {
     height: 28.5vw;
     width: 28.5vw;
-    }
+  }
 }
 
 .one {

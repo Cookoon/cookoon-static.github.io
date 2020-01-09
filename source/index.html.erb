@@ -122,10 +122,26 @@ title: Cookoon
     </div>
     <!-- carte 4 images -->
     <div class="card_four_images">
-      <%= image_tag 'cookoon-chef-2.jpg', alt:'#', class: 'card_four_images_img one' %>
-      <%= image_tag 'cookoon-chef-1.png', alt:'#', class: 'card_four_images_img two' %>
-      <%= image_tag 'cookoon-chef-3.jpg', alt:'#', class: 'card_four_images_img three' %>
-      <%= image_tag 'cookoon-chef-4.jpg', alt:'#', class: 'card_four_images_img four' %>
+      <div class="bloc_img_txt">
+        <div class="img_chef">
+          <%= image_tag 'cookoon-chef-2.jpg', alt:'#', class:'card_four_images_img one' %>
+        </div>
+        <div class="chef_name">
+          <h1 style="color: #CDBB8A;">Baptiste Renouard</h1>
+        </div>
+      </div>
+      <figure class="bloc_img_legend" >
+        <%= image_tag 'cookoon-chef-1.png', alt:'#', class:'card_four_images_img two' %>
+        <figcaption class="legend_two">Agnès Wiriath</figcaption>
+      </figure>
+      <figure class="bloc_img_legend" >
+        <%= image_tag 'cookoon-chef-3.jpg', alt:'#', class:'card_four_images_img three' %>
+        <figcaption class="legend_three">Dominique Boucher</figcaption>
+      </figure>
+      <figure class="bloc_img_legend" >
+        <%= image_tag 'cookoon-chef-4.jpg', alt:'#', class:'card_four_images_img four' %>
+        <figcaption class="legend_four">François Marchenay</figcaption>
+      </figure>
     </div>
   </div>
 </div>
