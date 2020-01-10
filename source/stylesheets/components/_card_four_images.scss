@@ -1,19 +1,35 @@
 .card_four_images {
-  // width: 50%;
-  // height: 100%;
-  // display: flex;
-  // flex-wrap: wrap;
-  // justify-content: space-between;
-  // align-content: space-between;
-  // border-style: solid;
   display: grid;
   grid-template-columns: repeat(2, 19.5vw);
-  // grid-gap: 1vmin;
   grid-template-rows: repeat(2, 19.5vw);
     @media (max-width: 991px) {
       grid-template-columns: repeat(3, 29.5vw);
       grid-template-rows: repeat(1, 29.5vw);
       padding-bottom: 1.5rem;
+  }
+}
+
+.bloc_img_txt {
+  position: relative;
+}
+
+.img_chef {
+  position: absolute;
+}
+
+.chef_name {
+  position: absolute;
+  width:19vw;
+  height: 19vw;
+  padding: 2vw;
+  background-color: rgba(205, 187, 138, 0.75);
+  display: none;
+}
+
+.bloc_img_txt:hover .chef_name {
+  @media (min-width: 992px) {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -24,10 +40,10 @@
   justify-self: start;
   align-self: start;
   border-radius: 0.25rem;
-    @media (max-width: 991px) {
+  @media (max-width: 991px) {
     height: 28.5vw;
     width: 28.5vw;
-    }
+  }
 }
 
 .one {
