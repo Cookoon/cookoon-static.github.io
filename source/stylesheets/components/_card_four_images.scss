@@ -23,6 +23,7 @@
   height: 19vw;
   padding: 2vw;
   background-color: rgba(205, 187, 138, 0.75);
+  color: white;
   display: none;
 }
 
@@ -30,6 +31,7 @@
   @media (min-width: 992px) {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 }
 
