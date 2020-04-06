@@ -36,6 +36,7 @@
     &:hover {
       opacity: 0.9;
       color: white;
+      outline: 0
     }
 }
 
@@ -65,3 +66,19 @@
   padding: 0;
 }
 
+.img-chef {
+  width:70vh;
+  height:65vh;
+  @media (orientation: portrait) {
+    width: 70vw;
+   }
+}
+
+.chef-figcaption {
+  position: relative;
+  bottom: 62.75vh;
+  text-align: left;
+  margin-left: 2rem;
+  height:0;
+  color: white;
+}
