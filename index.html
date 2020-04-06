@@ -178,26 +178,26 @@
       <!-- modal carousel -->
       <!-- Button trigger modal -->
       <!-- <a id="ID5" href="#" role="button" class="btn_gold_in_card" data-toggle="modal" data-target="#exampleModal">Voir les photos <span><i class="fas fa-long-arrow-alt-right"></i></span></a> -->
-      <button id="ID5" class="btn_gold_in_card" data-toggle="modal" data-target="#exampleModal">Voir les photos <span><i class="fas fa-long-arrow-alt-right"></i></span></button>
+      <button id="ID5" class="btn_gold_in_card" data-toggle="modal" data-target="#placesModal">Voir les photos <span><i class="fas fa-long-arrow-alt-right"></i></span></button>
 
       <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="placesModal" tabindex="-1" role="dialog" aria-labelledby="placesModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-body">
 
               <!-- bouton close -->
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <button class="close" data-dismiss="modal" aria-label="Close">
                 <i class="fas fa-times"></i>
               </button>
 
               <!-- indicateur de slide -->
-              <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+              <div id="carouselplacesIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleIndicators4" data-slide-to="3"></li>
+                  <li data-target="#carouselplacesIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselplacesIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselplacesIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselplacesIndicators" data-slide-to="3"></li>
                 </ol>
 
                 <!-- emplacement photos -->
@@ -217,11 +217,11 @@
                 </div>
 
                 <!-- flèches pour changer de photo -->
-                <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselplacesIndicators" role="button" data-slide="prev">
                   <i class="fas fa-chevron-left carrousel-chevron-left"></i>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselplacesIndicators" role="button" data-slide="next">
                   <i class="fas fa-chevron-right carrousel-chevron-right"></i>
                   <span class="sr-only">Next</span>
                 </a>
@@ -243,10 +243,66 @@
       <h1 class="card_title">Les chefs</h1>
       <div class="bande_horizontale"></div>
       <p class="card_text">Etoilés, issus de grandes maisons ou de célèbres émissions, les chefs vous font vivre une expérience gastronomique exclusive. À noter : certains d'entre eux se réservent uniquement par l'intermédiaire de la conciergerie, plusieurs mois à l'avance.</p>
-      <!-- bouton lien vers mail -->
-      <a class="btn_gold_in_card" id="ID6" href="https://cookoon.typeform.com/to/NpySLO" target="_blank">Cuisiner avec nous <span><i class="fas fa-long-arrow-alt-right"></i></span>
-      </a>
+      <!-- bouton lien vers typeform -->
+<!--       <a class="btn_gold_in_card" id="ID6" href="https://cookoon.typeform.com/to/NpySLO" target="_blank">Cuisiner avec nous <span><i class="fas fa-long-arrow-alt-right"></i></span>
+      </a> -->
+
+      <!-- modal carousel -->
+      <!-- Button trigger modal -->
+      <button id="ID6" class="btn_gold_in_card" data-toggle="modal" data-target="#chefsModal">Voir les chefs <span><i class="fas fa-long-arrow-alt-right"></i></span></button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="chefsModal" tabindex="-1" role="dialog" aria-labelledby="chefsModalLabel" aria-hidden="true">
+        <div class="modal-dialog" id="modal-dialog-chef" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+
+              <!-- bouton close -->
+              <button class="close" data-dismiss="modal" aria-label="Close">
+                <i class="fas fa-times"></i>
+              </button>
+
+              <!-- indicateur de slide -->
+              <div id="carouselChefsIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselChefsIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselChefsIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselChefsIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselChefsIndicators" data-slide-to="3"></li>
+                </ol>
+
+                <!-- emplacement photos -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block img-chef" src="images/cookoon-chef-2.jpg" alt="Baptiste Renouard">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-chef" src="images/cookoon-chef-1.png" alt="Agnès Wiriath">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-chef" src="images/cookoon-chef-3.jpg" alt="Dominique Boucher">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-chef" src="images/cookoon-chef-4.jpg" alt="François Marchenay">
+                  </div>
+                </div>
+
+                <!-- flèches pour changer de photo -->
+                <a class="carousel-control-prev" href="#carouselChefsIndicators" role="button" data-slide="prev">
+                  <i class="fas fa-chevron-left carrousel-chevron-left"></i>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselChefsIndicators" role="button" data-slide="next">
+                  <i class="fas fa-chevron-right carrousel-chevron-right"></i>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     <!-- carte 4 images -->
     <div class="card_four_images">
       <div class="bloc_img_txt">
