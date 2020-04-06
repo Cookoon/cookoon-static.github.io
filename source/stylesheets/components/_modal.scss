@@ -3,12 +3,24 @@
     // position: absolute;
 }
 
-.modal-dialog {
+.modal-dialog, #modal-dialog-chef {
   text-align: left; /* you'll likely want this */
   max-width: 100%;
-  width: 80vw;
   display: inline-block;
   margin-top: 15vh;
+}
+
+.modal-dialog {
+  width: 80vw;
+}
+
+#modal-dialog-chef {
+  width: 70vh;
+  height: 70vh;
+  @media (orientation: portrait) {
+    width: 70vw;
+    height: 70vw;
+   }
 }
 
 #close_modal {
