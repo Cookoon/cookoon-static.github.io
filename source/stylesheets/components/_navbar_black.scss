@@ -5,10 +5,7 @@
   padding: 1rem 5.8rem;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  @media (max-width: 991px) {
-    justify-content: space-between;
-  }
+  justify-content: space-between;
 
   & a {
     color: white;
