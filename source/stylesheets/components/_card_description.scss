@@ -10,6 +10,14 @@
     width: 88vw;
     padding: 1rem 0;
   }
+  .link {
+    color: #CDBB8A;
+    &:focus,
+    &:hover {
+      color: #CDBB8A;
+      text-decoration: underline;
+    }
+  }
 }
 
 .padding-right {
