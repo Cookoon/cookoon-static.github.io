@@ -47,14 +47,16 @@
 }
 
 .card_banner {
+  position: absolute;
+  z-index: 1;
   background-color: white;
   width: 25vw;
-  position: relative;
-  top: 5vmin;
-  left:5vmin;
+  left: 5vmin;
+  bottom: 5vmin;
   padding: 2.5rem;
   margin: 0 !important;
   border-radius: 0.25rem;
+  border-left: thick double #CDBB8A;
   @media (max-width: 736px) {
     width: 70vw;
     padding: 1.5rem;
