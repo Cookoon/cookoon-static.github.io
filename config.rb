@@ -100,7 +100,8 @@ page '/*.txt', layout: false
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 page "/404.html", directory_index: false#, :layout => 'page_under_construction'
-page "/maintenance.html", :layout => 'page_under_construction'
+page "/maintenance_old.html", :layout => 'page_under_construction'
+page "/maintenance.html", :layout => 'navbar_black_only'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
@@ -141,3 +142,18 @@ activate :google_tag_manager do |gtm|
   gtm.container_id = 'GTM-P3ZBPZG' # required
   gtm.development = false # Render tag in development environment
 end
+
+redirect "american-express-lieux.html", to: "maintenance.html"
+redirect "american-express-partenariat.html", to: "maintenance.html"
+redirect "american-express-tarifs.html", to: "maintenance.html"
+redirect "devenir-membre.html", to: "maintenance.html"
+redirect "devenir_hote.html", to: "maintenance.html"
+redirect "index.html", to: "maintenance.html"
+redirect "investir_dans_Cookoon.html", to: "maintenance.html"
+redirect "la_societe.html", to: "maintenance.html"
+redirect "maintenance_old.html", to: "maintenance.html"
+redirect "newsletter.html", to: "maintenance.html"
+redirect "occasions-particulieres.html", to: "maintenance.html"
+redirect "politique-de-confidentialite.html", to: "maintenance.html"
+redirect "presentation-for-business.html", to: "maintenance.html"
+redirect "receptions-professionnelles.html", to: "maintenance.html"
